@@ -1,0 +1,32 @@
+page-home {
+  ion-title{
+    text-align: center;
+  }
+  ion-card{
+    margin-top: auto;
+    ion-avatar{
+      img{
+         border-radius: 50%;
+      }
+    }
+
+  }
+  .col{
+    padding: 0px;
+  }
+  p{
+    font-size: 12;
+  }
+  .card-md p{
+    margin-top: 12px;
+  }
+  .label-md[stacked] {
+    font-size: 1.5rem;
+  }
+  .bgcolr{
+    background-color: #95a5a6;
+  }
+  .grid {
+      padding: 0px;
+    }
+}

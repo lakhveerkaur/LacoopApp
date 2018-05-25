@@ -1,0 +1,133 @@
+
+<ion-header>
+    <ion-navbar color="primary">
+    <ion-title>
+      POC's
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+  <ion-card (click)="shipMent($event)">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-4>
+          <ion-avatar >
+            <img src="assets/imgs/Kohls.png" style="width:90px;height:90px">
+          </ion-avatar>
+        </ion-col>
+        <ion-col col-8>
+          <h1>Kohl's Returns Logistics</h1>
+           <ion-row>
+             <ion-col>
+             <ion-label stacked> Vertical:</ion-label>
+           </ion-col>
+           <ion-col>
+           <p> Retail</p>
+         </ion-col>
+         </ion-row>
+         <ion-row>
+           <ion-col>
+           <ion-label stacked>  Client:</ion-label>
+         </ion-col>
+         <ion-col>
+         <p> Kohl's</p>
+       </ion-col>
+       </ion-row>
+       <ion-row>
+         <ion-col>
+         <ion-label stacked> PO:</ion-label>
+       </ion-col>
+       <ion-col>
+       <p> Ramya</p>
+     </ion-col>
+     </ion-row>
+     <ion-row>
+       <ion-col>
+       <ion-label stacked> Delivery date:</ion-label>
+     </ion-col>
+     <ion-col>
+     <p> Jan 16,2018</p>
+   </ion-col>
+   </ion-row>
+  </ion-col>
+      </ion-row>
+    </ion-grid>
+      <ion-item>
+      <ion-row>
+          <ion-col>
+            <ion-segment>
+              <ion-segment-button  value="user-stories" style="background-color:#d80a0a;color:#fcfcfc;font-size: 1.5rem">
+                User-stories: 5/5
+              </ion-segment-button>
+              <ion-segment-button  value="status" style="background-color:#1A237E;color:#fcfcfc;font-size: 1.5rem">
+                Completed
+              </ion-segment-button>
+            </ion-segment>
+          </ion-col>
+      </ion-row>
+     </ion-item>
+
+  </ion-card>
+  <ion-card (click)="kohlsPoc($event)">
+    <ion-grid>
+      <ion-row>
+        <ion-col col-4>
+          <ion-avatar >
+            <img src="assets/imgs/dansk.png" style="width:90px;height:90px">
+          </ion-avatar>
+        </ion-col>
+        <ion-col col-8>
+          <h1>Dansk</h1>
+           <ion-row>
+             <ion-col>
+             <ion-label stacked> Vertical:</ion-label>
+           </ion-col>
+           <ion-col>
+           <p> Retail</p>
+         </ion-col>
+         </ion-row>
+         <ion-row>
+           <ion-col>
+           <ion-label stacked>  Client:</ion-label>
+         </ion-col>
+         <ion-col>
+         <p> Dansk</p>
+       </ion-col>
+       </ion-row>
+       <ion-row>
+         <ion-col>
+         <ion-label stacked> PO:</ion-label>
+       </ion-col>
+       <ion-col>
+       <p>Prakash Chandersekharan</p>
+     </ion-col>
+     </ion-row>
+     <ion-row>
+       <ion-col>
+       <ion-label stacked> Delivery date:</ion-label>
+     </ion-col>
+     <ion-col>
+     <p> Mar 08,2018</p>
+   </ion-col>
+   </ion-row>
+  </ion-col>
+      </ion-row>
+    </ion-grid>
+      <ion-item>
+      <ion-row>
+          <ion-col>
+            <ion-segment>
+              <ion-segment-button  value="user-stories" style="background-color:#d80a0a;color:#fcfcfc;font-size: 1.5rem">
+                User-stories: 3/5
+              </ion-segment-button>
+              <ion-segment-button  value="status" style="background-color:#1A237E;color:#fcfcfc;font-size: 1.5rem">
+                Completed
+              </ion-segment-button>
+            </ion-segment>
+          </ion-col>
+      </ion-row>
+     </ion-item>
+
+  </ion-card>
+</ion-content>
